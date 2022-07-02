@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form  method="post"  action="data">
+    <label for="name">Your first name:</label>
+    <input id="name" type="text" name="name"  placeholder="First Name:"/><br />
+    <label for="lname">your last name:</label>
+    <input id="lname" type="text" name="lname"  placeholder="Last Name:"/><br />
+    <label for="emaill">your email:</label>
+    <input id="emaill" type="text" name="emaill"  placeholder="Email:"/><br />
+    <label for="num">Phone Number:</label>
+    <input id="num" type="text" name="num"  placeholder="Phone Number:"/>
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br />
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br/>
+    <label for="department">your department?</label>
+    <select name="department" id="department">
+        <option value="sales">Sales</option>
+        <option value="it">IT</option>
+    </select>
+    <input type="submit" value="Ok" />
+</form>
+
